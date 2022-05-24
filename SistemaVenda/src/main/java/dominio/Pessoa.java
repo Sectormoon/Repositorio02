@@ -4,6 +4,10 @@ public class Pessoa {
 	
 	private Integer id;
 	private String nome;
+	
+	public Pessoa() {
+		super();
+	}
 	public Pessoa(Integer id, String nome) {
 		super();
 		this.id = id;
